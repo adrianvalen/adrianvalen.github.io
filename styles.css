@@ -104,7 +104,7 @@ body[data-scene="contact"] .amb--contact{ opacity:1; }
 .mark-short{ display:none; }
 .top-actions{ display:flex; align-items:center; gap:clamp(16px,2.6vw,32px); }
 .nav{ display:flex; gap:clamp(16px,2.6vw,32px); }
-.nav a{ position:relative; padding:6px 0; font-weight:500; font-size:.98rem; color:var(--mute); transition:color .3s; }
+.nav a{ position:relative; padding:12px 0; font-weight:500; font-size:.98rem; color:var(--mute); transition:color .3s; }
 .nav a:hover,.nav a[aria-current="true"]{ color:var(--ink); }
 .nav a::after{ content:""; position:absolute; left:0; right:0; bottom:0; height:2px; background:var(--lamp); transform:scaleX(0); transform-origin:left; transition:transform .35s var(--ease); }
 .nav a:hover::after,.nav a[aria-current="true"]::after{ transform:scaleX(1); }
