@@ -18,7 +18,7 @@
   --bg:#090A0F;
   --ink:#ECEFF7;
   --ink-dim:#C5CBDB;
-  --mute:#9BA3B8;
+  --mute:#B1B9CD;
   --line:rgba(155,163,184,.22);
   --lamp:#FFB454;
   --lamp-hi:#FFCB85;
@@ -112,10 +112,10 @@ body[data-scene="contact"] .amb--contact{ opacity:1; }
 /* ---------- Hero ---------- */
 .hero{ padding-block:clamp(60px,6vw,84px) clamp(40px,6vw,96px); min-height:calc(100svh - var(--head)); display:flex; align-items:center; }
 .hero-grid{ display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr); gap:clamp(24px,5vw,80px); align-items:center; width:100%; }
-.statement{ font-weight:700; font-size:clamp(2.5rem,5vw,4.8rem); line-height:1; letter-spacing:-.04em; color:var(--ink-dim); text-wrap:balance; }
+.statement{ font-weight:700; font-size:clamp(2.5rem,5vw,4.8rem); line-height:1; letter-spacing:-.04em; color:var(--ink); text-wrap:balance; }
 .statement .w{ display:inline-block; overflow:hidden; padding-bottom:.12em; margin-bottom:-.12em; vertical-align:top; }
 .statement .w > span{ display:inline-block; }
-.statement .key{ color:var(--ink); }
+.statement .key{ color:var(--lamp); }
 .js .statement .w > span{ transform:translateY(110%); animation:rise 1s var(--ease) calc(var(--i) * 70ms + 120ms) forwards; }
 @keyframes rise{ to{ transform:none; } }
 .hero-sub{ margin-top:clamp(18px,2.2vw,30px); max-width:36ch; font-size:clamp(1.1rem,1.5vw,1.35rem); line-height:1.4; color:var(--mute); }
@@ -192,6 +192,8 @@ body[data-scene="contact"] .amb--contact{ opacity:1; }
 .about-grid{ display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:clamp(32px,7vw,120px); align-items:start; }
 .about-title{ font-weight:700; font-size:clamp(3rem,7vw,6rem); line-height:.95; letter-spacing:-.04em; }
 .about-lead{ margin-top:clamp(18px,2.4vw,32px); max-width:24ch; font-weight:600; font-size:clamp(1.4rem,2.4vw,2.1rem); line-height:1.18; letter-spacing:-.03em; color:var(--ink-dim); text-wrap:balance; }
+.about-photo{ margin-top:clamp(24px,3.2vw,44px); max-width:340px; border-radius:6px; overflow:hidden; background:#14161F; }
+.about-photo img{ display:block; width:100%; height:auto; aspect-ratio:4/5; object-fit:cover; object-position:50% 30%; }
 .about-text{ max-width:62ch; font-size:clamp(1.02rem,1.2vw,1.15rem); line-height:1.55; color:var(--ink-dim); }
 .about-body .facts{ margin-top:clamp(20px,2.4vw,32px); }
 .facts--kit div{ grid-template-columns:8.4rem minmax(0,1fr); }
