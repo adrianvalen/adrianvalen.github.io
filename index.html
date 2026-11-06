@@ -24,13 +24,13 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%23090A0F%22/><text x=%2250%22 y=%2272%22 font-size=%2262%22 font-weight=%22800%22 fill=%22%23ECEFF7%22 font-family=%22Arial,sans-serif%22 text-anchor=%22middle%22>A</text><rect x=%2270%22 y=%2270%22 width=%2214%22 height=%2214%22 rx=%223%22 fill=%22%23FFB454%22/></svg>">
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Adrián Valenzuela","jobTitle":"Diseñador UX/UI","url":"https://adrianvalen.github.io/","sameAs":["https://www.linkedin.com/in/adrianvalenzueladieguez"]}
+{"@context":"https://schema.org","@type":"Person","name":"Adrián Valenzuela","jobTitle":"Diseñador UX/UI","alumniOf":{"@type":"CollegeOrUniversity","name":"Universitat Oberta de Catalunya"},"knowsAbout":["UX research","Diseño de interfaces","Prototipado"],"url":"https://adrianvalen.github.io/","sameAs":["https://www.linkedin.com/in/adrianvalenzueladieguez"]}
 </script>
 
 <script>
 document.documentElement.classList.add("js");
 </script>
-<link rel="stylesheet" href="styles.css?v=20261008">
+<link rel="stylesheet" href="styles.css?v=20261106">
 </head>
 <body data-scene="cb">
 
@@ -47,6 +47,7 @@ document.documentElement.classList.add("js");
       <nav class="nav" id="nav" aria-label="Principal">
         <a href="#cb-viladecans">CB Viladecans</a>
         <a href="#rebrot">Rebrot</a>
+        <a href="#sobre-mi">Sobre mí</a>
         <a href="#contacto">Contacto</a>
       </nav>
     </div>
@@ -69,7 +70,11 @@ document.documentElement.classList.add("js");
           <span class="w key" style="--i:7"><span>a&nbsp;la&nbsp;primera.</span></span>
         </h1>
         <p class="hero-sub">Soy Adrián Valenzuela, diseñador UX/UI. Investigo, diseño y prototipo experiencias claras.</p>
-        <a class="go" href="#cb-viladecans">Ver proyectos <svg class="ico ico--down" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg></a>
+        <div class="hero-actions">
+          <a class="go" href="#cb-viladecans">Ver proyectos <svg class="ico ico--down" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg></a>
+          <a class="go" href="assets/adrian-valenzuela-cv-ux-ui.pdf" download>Descargar CV <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z"/></svg></a>
+        </div>
+        <p class="hero-status">Abierto a oportunidades como diseñador UX/UI en Barcelona.</p>
       </div>
 
       <div class="hero-stage" aria-hidden="true">
@@ -127,24 +132,35 @@ document.documentElement.classList.add("js");
     </div>
   </section>
 
-  <section class="kit" id="herramientas" data-scene="contact" aria-labelledby="t-kit">
-    <div class="wrap kit-grid">
-      <h2 class="kit-statement" id="t-kit">Investigo antes de diseñar y cuido que cada decisión de interfaz tenga un porqué.</h2>
-      <dl class="facts facts--kit">
-        <div><dt>Formación</dt><dd>Grado en Diseño y Creación Digitales, UOC</dd></div>
-        <div><dt>Disciplinas</dt><dd>UX research, UI, prototipado y diseño de producto</dd></div>
-        <div><dt>Herramientas</dt><dd>Figma, Adobe XD, Illustrator</dd></div>
-      </dl>
+  <section class="about" id="sobre-mi" data-scene="contact" aria-labelledby="t-about">
+    <div class="wrap about-grid">
+      <div class="about-head" data-reveal>
+        <h2 class="about-title" id="t-about">Sobre mí</h2>
+        <p class="about-lead">Investigo antes de diseñar y cuido que cada decisión de interfaz tenga un porqué.</p>
+      </div>
+      <div class="about-body" data-reveal>
+        <p class="about-text">Soy diseñador UX/UI, formado en el Grado en Diseño y Creación Digitales de la UOC. Mi trabajo final, la app del CB Viladecans, parte de un problema real: coordinar a entrenadores, jugadores y familias sin depender de WhatsApp. En mis prácticas formé parte del equipo de Rebrot, la instalación de luz de Llum BCN 2026.</p>
+        <dl class="facts facts--kit">
+          <div><dt>Formación</dt><dd>Grado en Diseño y Creación Digitales, UOC</dd></div>
+          <div><dt>Disciplinas</dt><dd>UX research, UI, prototipado y diseño de producto</dd></div>
+          <div><dt>Herramientas</dt><dd>Figma, Adobe XD, Illustrator</dd></div>
+          <div><dt>Ubicación</dt><dd>Barcelona</dd></div>
+          <div><dt>Disponibilidad</dt><dd>Abierto a oportunidades como diseñador UX/UI</dd></div>
+        </dl>
+        <a class="go" href="assets/adrian-valenzuela-cv-ux-ui.pdf" download>Descargar CV (PDF) <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z"/></svg></a>
+      </div>
     </div>
   </section>
 
   <section class="contact" id="contacto" data-scene="contact" aria-labelledby="t-contacto">
     <div class="wrap" data-reveal>
       <h2 class="contact-title" id="t-contacto">Hablemos.</h2>
+      <p class="contact-lead">Estoy abierto a oportunidades como diseñador UX/UI. Escríbeme o descarga mi CV.</p>
       <p class="contact-mail-row">
         <a class="mail" href="mailto:advadi2@gmail.com">advadi2@gmail.com</a>
       </p>
       <ul class="links">
+        <li><a href="assets/adrian-valenzuela-cv-ux-ui.pdf" download>CV en PDF <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z"/></svg></a></li>
         <li><a href="https://www.linkedin.com/in/adrianvalenzueladieguez" target="_blank" rel="noopener">LinkedIn <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></svg></a></li>
         <li><a href="https://www.behance.net/gallery/254521557/App-CB-Viladecans-UXUI-Case-Study?platform=direct" target="_blank" rel="noopener">Caso en Behance <svg class="ico" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></svg></a></li>
       </ul>
@@ -161,6 +177,6 @@ document.documentElement.classList.add("js");
 </footer>
 
 
-<script defer src="main.js?v=20261008"></script>
+<script defer src="main.js?v=20261106"></script>
 </body>
 </html>
